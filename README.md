@@ -7,4 +7,4 @@ Client Verification of Server Certificate in sonarqube application can be enable
 
 sonarqube docker image in docker hub does not contain root ca of azure postgresql.
 
-This image is derived from sonarqube base docker image and includes postgresql root.ca file in folder .home/sonarqube/.postgresql/root.crt. sonarqube is the default username that is used when deploying application into web app for container as an example. Hence root ca has been placed into sonarqube user location.
+This image is derived from sonarqube base docker image and includes postgresql root.ca file in folder /home/sonarqube/.postgresql/root.crt. sonarqube is the default username that is used when deploying application into web app for container as an example. Hence root ca has been placed into sonarqube user location.
