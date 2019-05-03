@@ -1,2 +1,4 @@
 FROM sonarqube:7.0-alpine
-ENTRYPOINT ["./bin/run.sh"]
+COPY entrypoint.sh ./bin/
+RUN chmod +x ./bin/entrypoint.sh
+ENTRYPOINT ["./bin/entrypoint.sh"]
