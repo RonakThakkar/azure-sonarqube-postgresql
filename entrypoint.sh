@@ -1,3 +1,3 @@
 #!/bin/sh
 echo Preparing SonarQube container
-source ./bin/entrypoint.sh
+source ./bin/run.sh
